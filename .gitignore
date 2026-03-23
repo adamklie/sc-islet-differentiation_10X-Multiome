@@ -4,9 +4,7 @@ processed/
 results/
 scratch/
 ref/
-fragments/
-models/
-peaks/
+data/
 **/slurm_logs/
 
 # Byte-compiled / optimized / DLL files

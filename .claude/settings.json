@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//cellar/users/aklie/data/datasets/Muto_mouse-kidney_10X-Multiome/config/colors/**)",
+      "Read(//carter/users/aklie/data/datasets/Muto_mouse-kidney_10X-Multiome/config/colors/**)",
+      "Read(//cellar/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/bin/2_process_data/**)",
+      "Read(//carter/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/bin/2_process_data/**)",
+      "Bash(conda list -n scverse-lite-py311)",
+      "Bash(pip show pyranges)",
+      "Read(//cellar/users/aklie/opt/miniconda3/envs/scverse-lite-py311/lib/python3.11/site-packages/pyranges/**)",
+      "Read(//carter/users/aklie/opt/miniconda3/envs/scverse-lite-py311/lib/python3.11/site-packages/pyranges/**)",
+      "Read(//cellar/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/scratch/2026_03_02/**)",
+      "Read(//carter/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/scratch/2026_03_02/**)",
+      "Bash(/cellar/users/aklie/opt/miniconda3/envs/scverse-lite-py311/bin/python -c \"import matplotlib_venn; print\\(''matplotlib_venn available''\\)\")",
+      "Bash(/cellar/users/aklie/opt/miniconda3/envs/scverse-lite-py311/bin/python -c \"import upsetplot; print\\(''upsetplot available''\\)\")",
+      "Read(//cellar/users/aklie/opt/miniconda3/envs/scverse-lite-py311/lib/python3.11/site-packages/scanpy/**)",
+      "Read(//carter/users/aklie/opt/miniconda3/envs/scverse-lite-py311/lib/python3.11/site-packages/scanpy/**)",
+      "Bash(ls /cellar/users/aklie/projects/igvf/single_cell_utilities/pycistopic/.venv/bin/pip* /cellar/users/aklie/projects/igvf/single_cell_utilities/pycistopic/.venv/bin/uv*)",
+      "Bash(/cellar/users/aklie/projects/igvf/single_cell_utilities/pycistopic/.venv/bin/python -m pip install -U matplotlib-inline)",
+      "Bash(uv pip install \"matplotlib-inline<0.2\" --python /cellar/users/aklie/projects/igvf/single_cell_utilities/pycistopic/.venv/bin/python)",
+      "Bash(sacct -u aklie --format=JobID,JobName%30,MaxRSS,Elapsed,State,ReqMem --parsable2 -S 2026-03-02)",
+      "Bash(sacct -u aklie --format=JobID%15,JobName%35,MaxRSS,Elapsed,State,ReqMem --parsable2 -S 2026-03-02)"
+    ],
+    "additionalDirectories": [
+      "/cellar/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/scratch/2026_03_02",
+      "/carter/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/scratch/2026_03_02",
+      "/cellar/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/bin/4_deeptopic",
+      "/carter/users/aklie/data/datasets/sc-islet-differentiation_10X-Multiome/bin/4_deeptopic"
+    ]
+  }
+}

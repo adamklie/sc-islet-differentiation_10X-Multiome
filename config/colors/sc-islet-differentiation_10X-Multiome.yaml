@@ -1,0 +1,90 @@
+celltype_colors:
+
+  # Definitive Endoderm
+  DE:                        "#f4a582"
+
+  # Posterior Gut Tube
+  PGT1:                      "#d6604d"
+  PGT2:                      "#b2182b"
+  PGT3:                      "#67001f"
+
+  # Posterior Foregut
+  PFG1:                      "#fdae61"
+  PFG2:                      "#f46d43"
+
+  # Pancreatic Progenitors
+  PP1:                       "#fee08b"
+  PP2:                       "#d4b13f"
+
+  # Endocrine / Neuroendocrine Progenitors
+  ENP_phase1:                "#66c2a5"
+  early_ENP:                 "#3288bd"
+  late_ENP:                  "#1a5276"
+
+  # SC-beta
+  early_SC_beta:             "#5e4fa2"
+  late_SC_beta:              "#3b2d7e"
+
+  # SC-alpha
+  early_SC_alpha:            "#e41a1c"
+  late_SC_alpha:             "#a50f15"
+
+  # SC-EC (enterochromaffin)
+  early_SC_EC:               "#4daf4a"
+  late_SC_EC:                "#276419"
+
+  # SC-delta / GHRL
+  SC_delta_GHRL:             "#ff7f00"
+
+  # Proliferating endocrine
+  proliferating_endocrine:   "#984ea3"
+
+  # Non-pancreatic / Other
+  exocrine:                  "#999999"
+  liver:                     "#a65628"
+  FB_FLT1:                   "#e7969c"
+
+celltype_order: [
+  "DE",
+  "PGT1", "PGT2", "PGT3",
+  "PFG1", "PFG2",
+  "PP1", "PP2",
+  "ENP_phase1", "early_ENP", "late_ENP",
+  "early_SC_beta", "late_SC_beta",
+  "early_SC_alpha", "late_SC_alpha",
+  "early_SC_EC", "late_SC_EC",
+  "SC_delta_GHRL",
+  "proliferating_endocrine",
+  "exocrine", "liver", "FB_FLT1"
+]
+
+diff_batch_colors:
+  HZ015:   "#66c2a5"
+  HZ019:   "#fc8d62"
+  HZ021:   "#8da0cb"
+  XW002:   "#e78ac3"
+
+diff_batch_order: [
+  "HZ015", "HZ019", "HZ021", "XW002"
+]
+
+diff_stage_colors:
+  D4:      "#fef0d9"
+  D7:      "#fdcc8a"
+  D9:      "#fc8d59"
+  D12:     "#e34a33"
+  D15:     "#b30000"
+  D22:     "#7f0000"
+  D45:     "#4a0000"
+
+diff_stage_order: [
+  "D4", "D7", "D9", "D12", "D15", "D22", "D45"
+]
+
+endocrine_colors:
+  endocrine:       "#5e4fa2"
+  non_endocrine:   "#f46d43"
+
+endocrine_order: [
+  "endocrine", "non_endocrine"
+]
